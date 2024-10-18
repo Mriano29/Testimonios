@@ -31,9 +31,6 @@ export default function Testimonio({imageUrl,imageAlt ,name, location, descripti
         alt={imageAlt}
       />
       <CardContent>
-        <Typography gutterBottom variant="h4" component="div">
-          
-        </Typography>
         {/* Uso del componente MiguelRR el cual es un typography */}
         <MiguelRR
           text={`${name} en ${location}`}
